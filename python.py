@@ -36,7 +36,7 @@ def prompt_unique_identifier():
                     else:
                         print("Rows with null unique identifier values were not deleted.")
                 else:
-                    print("No Null values")
+                    print("No Null values Found")
             else:
                 print("Invalid unique identifier column.")
         else:
